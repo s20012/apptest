@@ -1,0 +1,18 @@
+const data = [{name: 'hoge'}, {name: 'fuga'}, {name: 'bar'}]
+
+const Actions = {
+
+    search(searchKey) {
+
+        const searchData = data.filter((data) => {
+            return data.name.startsWith(searchKey)
+        })
+        return {
+            type: 'SEARCH',
+            resultData: searchData
+        }
+    }
+}
+
+export default Actions
+
