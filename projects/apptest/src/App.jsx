@@ -137,7 +137,10 @@ class Exchange extends Component {
         <a onClick={this.shakeDice2} class='btn-square-shadow'>
           ③
         </a>
-        <button onClick={this.reload}>もう一度</button>
+        <br />
+        <a onClick={this.reload} class='btn btn--orange btn--cubic btn--shadow'>
+          もう一度
+        </a>
       </div>
     )
   }

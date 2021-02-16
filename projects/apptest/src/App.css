@@ -9,6 +9,7 @@
   margin: 3px 9px;
   border-bottom: solid 4px #627295;
   border-radius: 3px;
+  justify-content: center;
 }
 .btn-square-shadow:active {
   /*ボタンを押したとき*/
@@ -124,4 +125,20 @@ h2 span:after {
 .box19 p {
     margin: 0; 
     padding: 0;
+}
+
+a.btn--orange {
+  color: #fff;
+  background-color: #eb6100;
+  border-bottom: 5px solid #b84c00;
+}
+a.btn--orange:hover {
+  margin-top: 3px;
+  color: #fff;
+  background: #f56500;
+  border-bottom: 2px solid #b84c00;
+}
+a.btn--shadow {
+  -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
 }
